@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GUESTS LIST</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bs/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="text-center">Guests__list</h3>
+                <div id="output" class="mt-4"></div>
+                <div id="result"></div>
+            </div>
+            <div class="col-6">
+                <h3 class="text-center mt-2">Add guests</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                        <label for="">Count:</label>
+                        <input type="number" class="form-control" id="count">
+                        <label for="">Confirmed:</label>
+                        <input type="text" class="form-control" id="confirmed">
+                        <button type="button" class="btn btn-info mt-2" id="send">Add </button>
+                        <button type="reset" class="btn btn-info mt-2">Reset</button>
+                        <span id="add_output"></span>
+                    </div>
+                </form>
+
+                <script src="./js/jq.js"></script>
+                <script src="./bs/js/bootstrap.js"></script>
+                <script src="./app.js"></script>
+</body>
+
+</html>
